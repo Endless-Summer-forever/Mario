@@ -300,12 +300,12 @@ class Level:
         self.game_ground.blit(self.background, self.game_window, self.game_window)
         self.game_ground.blit(self.player.image, self.player.rect)
         self.powerup_group.draw(self.game_ground)
+        self.coin_group.draw(self.game_ground)
         self.brick_group.draw(self.game_ground)
         self.box_group.draw(self.game_ground)
         self.enemy_group.draw(self.game_ground)
         self.dying_group.draw(self.game_ground)
         self.shell_group.draw(self.game_ground)
-        self.coin_group.draw(self.game_ground)
 
         # 再把game_ground的游戏窗口部分渲染到屏幕上
         surface.blit(self.game_ground, (0, 0), self.game_window)
