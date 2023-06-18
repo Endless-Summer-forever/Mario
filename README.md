@@ -11,9 +11,9 @@
 * run main.py
 
 # How to Play
-* Arrow keys for direction
+* 'left' and 'right' for direction
 * 'up' for jump
-* 'shift' for run
+* 'shift' for run（必须同时按下方向键）
 
 # resources
 * 资源文件夹
