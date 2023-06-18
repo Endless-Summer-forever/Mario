@@ -15,5 +15,10 @@
 * 'up' for jump
 * 'shift' for run
 
+# resources
+* 资源文件夹
+
+# 关键代码位置
+* source and source.states and source.components
 
 # Mario
